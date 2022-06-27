@@ -69,7 +69,7 @@ def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
 	subprocess.check_output(["am", "start", "https://github.com/BHHZK9211/approval.txt/blob/main/approval.txt"])
-	exit(" [=>] FACEBOOK :  https://www.facebook.com/zkkhan9211")
+	exit(" [=>] FACEBOOK :  https://www.facebook.com/zkkhan9211 youre not approved contact link")
 
 
 def notice():
