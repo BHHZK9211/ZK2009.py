@@ -68,13 +68,11 @@ os.system('termux-setup-storage')
 def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
-	subprocess.check_output(["am", "start", "https://github.com/BHHZK9211/ZK9211.py/blob/main/aproval-systm.py"])
+	subprocess.check_output(["am", "start", "https://github.com/BHHZK9211/approval.txt/blob/main/approval.txt"])
 	exit(" [=>] FACEBOOK :  https://www.facebook.com/zkkhan9211")
 
 
 def notice():
-
- 
 
 	runtxt("\n\033[0;97m  Free 2009 cloning Tool For Free Aproval Join Group ")
 	os.system("xdg-open www.facebook.com/zkkhan9211")
@@ -103,7 +101,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			plr = requests.get('https://github.com/BHHZK9211/ZK9211.py/blob/main/aproval-systm.py').text
+			plr = requests.get('https://github.com/BHHZK9211/approval.txt/blob/main/approval.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;97mPREMIUM")
