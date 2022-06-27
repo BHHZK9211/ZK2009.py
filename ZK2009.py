@@ -39,7 +39,6 @@ def logo():
  ───────────────────────────────────────────────────────×
  """)
 def logo2():
-	#Yahan apna logo paste krna hw
 	print ("""
 __   __ _   _   ___   _   _  _____ 
 \ \ / /| | | | / _ \ | \ | ||_   _|
@@ -52,9 +51,9 @@ __   __ _   _   ___   _   _  _____
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Z K KHAN 9211\x1b[0m\x1b[1;97m]
 \t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :6\x1b[0m\x1b[1;97m] \033[1;37m 
  ───────────────────────────────────────────────────────×
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : Mr-Qureshi \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/Mr-Qureshi-xd \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./MrQureshi-xd \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : Mr-Z K \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/BHHZK9211 \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./zkkhan9211 \x1b[0m\x1b[1;97m]
 ───────────────────────────────────────────────────────× 
  """)
 
@@ -69,8 +68,7 @@ os.system('termux-setup-storage')
 def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
-	subprocess.check_output(["am", "start", "https://github.com/Mr-Qureshi-xd/run.txt/blob/main/run.txt"])
-	#yahan apni facebook id link dalna
+	subprocess.check_output(["am", "start", "https://github.com/BHHZK9211/ZK9211.py/blob/main/aproval-systm.py"])
 	exit(" [=>] FACEBOOK :  https://www.facebook.com/zkkhan9211")
 
 
@@ -105,7 +103,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			plr = requests.get('https://github.com/BHHZK9211/run.txt/blob/main/run.txt').text
+			plr = requests.get('https://github.com/BHHZK9211/ZK9211.py/blob/main/aproval-systm.py').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;97mPREMIUM")
@@ -122,7 +120,6 @@ class Main:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
 			exit()
 		os.system("clear")
-		#yahan logo lagana apna
 		print ("""
 __   __ _   _   ___   _   _  _____ 
 \ \ / /| | | | / _ \ | \ | ||_   _|
